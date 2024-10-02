@@ -1,0 +1,2768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.1-dist/css/bootstrap.css">
+    <script src="./bootstrap-5.2.1-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabla periodica</h1>
+    <h2>Actualizada</h2>
+
+    
+    <div class="col-1" data-bs-toggle="modal" data-bs-target="#exampleHidrogeno">
+        <p class="roman">IA</p>
+        <p class="peso-atomico">1.00794</p>
+        <p class="numero-atomico">1</p>
+        <p class="simbolo">H</p>
+        <p class="nombre">Hidrogeno</p>
+    </div>
+    <div class="col-1_1" data-bs-toggle="modal" data-bs-target="#exampleLitio">
+        <p class="peso-atomico">6.941</p>
+        <p class="numero-atomico">3</p>
+        <p class="simbolo">Li</p>
+        <p class="nombre">Litio</p>
+    </div>
+    <div class="col-1_1" data-bs-toggle="modal" data-bs-target="#exampleSodio">
+        <p class="peso-atomico">22.98</p>
+        <p class="numero-atomico">11</p>
+        <p class="simbolo">Na</p>
+        <p class="nombre">Sodio</p>
+    </div>
+    <div class="col-1_1" data-bs-toggle="modal" data-bs-target="#examplePotasio">
+        <p class="peso-atomico">39.09</p>
+        <p class="numero-atomico">19</p>
+        <p class="simbolo">K</p>
+        <p class="nombre">Potasio</p>
+    </div>
+    <div class="col-1_1" data-bs-toggle="modal" data-bs-target="#exampleRubidio">
+        <p class="peso-atomico">85.46</p>
+        <p class="numero-atomico">37</p>
+        <p class="simbolo">Rb</p>
+        <p class="nombre">Rubidio</p>
+    </div>
+    <div class="col-1_1" data-bs-toggle="modal" data-bs-target="#exampleCesio">
+        <p class="peso-atomico">132.90</p>
+        <p class="numero-atomico">55</p>
+        <p class="simbolo">Cs</p>
+        <p class="nombre">Cesio</p>
+    </div>
+    <div class="col-1_1" data-bs-toggle="modal" data-bs-target="#exampleFrancio">
+        <p class="peso-atomico">(223)</p>
+        <p class="numero-atomico">87</p>
+        <p class="simbolo">Fr</p>
+        <p class="nombre">Francio</p>
+    </div>
+
+    <div class="col-2" data-bs-toggle="modal" data-bs-target="#exampleBerilio">
+        <p class="roman">IIA</p>
+        <p class="peso-atomico">9.0121</p>
+        <p class="numero-atomico">4</p>
+        <p class="simbolo">Be</p>
+        <p class="nombre">Berilio</p>
+    </div>
+    <div class="col-2_1" data-bs-toggle="modal" data-bs-target="#exampleMagnesio">
+        <p class="peso-atomico">24.30</p>
+        <p class="numero-atomico">12</p>
+        <p class="simbolo">Mg</p>
+        <p class="nombre">Magnesio</p>
+    </div>
+    <div class="col-2_1" data-bs-toggle="modal" data-bs-target="#exampleCalcio">
+        <p class="peso-atomico">40.078</p>
+        <p class="numero-atomico">20</p>
+        <p class="simbolo">Ca</p>
+        <p class="nombre">Calcio</p>
+    </div>
+    <div class="col-2_1" data-bs-toggle="modal" data-bs-target="#exampleEstroncio">
+        <p class="peso-atomico">87.62</p>
+        <p class="numero-atomico">38</p>
+        <p class="simbolo">Sr</p>z
+        <p class="nombre">Estroncio</p>
+    </div>
+    <div class="col-2_1" data-bs-toggle="modal" data-bs-target="#exampleBario">
+        <p class="peso-atomico">137.32</p>
+        <p class="numero-atomico">56</p>
+        <p class="simbolo">Ba</p>
+        <p class="nombre">Bario</p>
+    </div>
+    <div class="col-2_1" data-bs-toggle="modal" data-bs-target="#exampleRadio">
+        <p class="peso-atomico">226.02</p>
+        <p class="numero-atomico">88</p>
+        <p class="simbolo">Ra</p>
+        <p class="nombre">Radio</p>
+    </div>
+
+    <div class="col-3" data-bs-toggle="modal" data-bs-target="#exampleEscandio">
+        <p class="roman">IIIB</p>
+        <p class="peso-atomico-rojo">44.95</p>
+        <p class="numero-atomico-rojo">21</p>
+        <p class="simbolo">Sc</p>
+        <p class="nombre">Escandio</p>
+    </div>
+    <div class="col-3_1" data-bs-toggle="modal" data-bs-target="#exampleItrio">
+        <p class="peso-atomico-rojo">88.905</p>
+        <p class="numero-atomico-rojo">39</p>
+        <p class="simbolo">Y</p>
+        <p class="nombre">Itrio</p>
+    </div>
+    <div class="col-3_1" data-bs-toggle="modal" data-bs-target="#exampleLantano" style="background-color: rgba(246, 215, 250, 0.831);">
+        <p class="peso-atomico-negro">138.90</p>
+        <p class="numero-atomico-negro">57</p>
+        <p class="simbolo">La</p>
+        <p class="nombre">Lantano</p>
+    </div>
+    <div class="col-3_1" class="background" data-bs-toggle="modal" data-bs-target="#exampleActinio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">267</p>
+        <p class="numero-atomico-negro">89</p>
+        <p class="simbolo">Ac</p>
+        <p class="nombre">Actinio</p>
+    </div>
+    <div class="col-4" data-bs-toggle="modal" data-bs-target="#exampleTitanio">
+        <p class="roman">IVB</p>
+        <p class="peso-atomico-rojo">47.88</p>
+        <p class="numero-atomico-rojo">22</p>
+        <p class="simbolo">Ti</p>
+        <p class="nombre">Titanio</p>
+    </div>
+    <div class="col-4_1" data-bs-toggle="modal" data-bs-target="#exampleZirconio">
+        <p class="peso-atomico-rojo">91.224</p>
+        <p class="numero-atomico-rojo">40</p>
+        <p class="simbolo">Zr</p>
+        <p class="nombre">Zirconio</p>
+    </div>
+    <div class="col-4_1" data-bs-toggle="modal" data-bs-target="#exampleHafnio">
+        <p class="peso-atomico-rojo">178.49</p>
+        <p class="numero-atomico-rojo">72</p>
+        <p class="simbolo">Hf</p>
+        <p class="nombre">Hafnio</p>
+    </div>
+    <div class="col-4_1" data-bs-toggle="modal" data-bs-target="#exampleRuterfordio">
+        <p class="peso-atomico-rojo">(267)</p>
+        <p class="numero-atomico-rojo"">104</p>
+        <p class="simbolo">Rf</p>
+        <p class="nombre">Ruterfordio</p>
+    </div>
+
+    <div class="col-5" data-bs-toggle="modal" data-bs-target="#exampleVanadio">
+        <p class="roman">IA</p>
+        <p class="peso-atomico-rojo">50.942</p>
+        <p class="numero-atomico-rojo">23</p>
+        <p class="simbolo">V</p>
+        <p class="nombre">Vanadio</p>
+    </div>
+    <div class="col-5_1" data-bs-toggle="modal" data-bs-target="#exampleNiobio">
+        <p class="peso-atomico-rojo">92.906</p>
+        <p class="numero-atomico-rojo">41</p>
+        <p class="simbolo">Nb</p>
+        <p class="nombre">Niobio</p>
+    </div>
+    <div class="col-5_1" data-bs-toggle="modal" data-bs-target="#exampleTantalio">
+        <p class="peso-atomico-rojo">180.95</p>
+        <p class="numero-atomico-rojo">73</p>
+        <p class="simbolo">Ta</p>
+        <p class="nombre">Tantalio</p>
+    </div>
+    <div class="col-5_1" data-bs-toggle="modal" data-bs-target="#exampleDaubnio">
+        <p class="peso-atomico-rojo">270</p>
+        <p class="numero-atomico-rojo">105</p>
+        <p class="simbolo">Db</p>
+        <p class="nombre">Dubnio</p>
+    </div>
+
+    <div class="col-6" data-bs-toggle="modal" data-bs-target="#exampleCromo">
+        <p class="roman">VIB</p>
+        <p class="peso-atomico-rojo">51.996</p>
+        <p class="numero-atomico-rojo">24</p>
+        <p class="simbolo">Cr</p>
+        <p class="nombre">Cromo</p>
+    </div>
+    <div class="col-6_1" data-bs-toggle="modal" data-bs-target="#exampleMolibdeno">
+        <p class="peso-atomico-rojo">95.95</p>
+        <p class="numero-atomico-rojo">42</p>
+        <p class="simbolo">Mo</p>
+        <p class="nombre">Molibdeno</p>
+    </div>
+    <div class="col-6_1" data-bs-toggle="modal" data-bs-target="#exampleTungsteno">
+        <p class="peso-atomico-rojo">183.84</p>
+        <p class="numero-atomico-rojo">74</p>
+        <p class="simbolo">W</p>
+        <p class="nombre">Tungsteno</p>
+    </div>
+    <div class="col-6_1" data-bs-toggle="modal" data-bs-target="#exampleSeaborgio">
+        <p class="peso-atomico-rojo">271</p>
+        <p class="numero-atomico-rojo">106</p>
+        <p class="simbolo">Sg</p>
+        <p class="nombre">Seaborgio</p>
+    </div>
+
+    <div class="col-7" data-bs-toggle="modal" data-bs-target="#exampleManganeso">
+        <p class="roman">VIIB</p>
+        <p class="peso-atomico-rojo">54.938</p>
+        <p class="numero-atomico-rojo">25</p>
+        <p class="simbolo">Mn</p>
+        <p class="nombre">Manganeso</p>
+    </div>
+    <div class="col-7_1" data-bs-toggle="modal" data-bs-target="#exampleTecnecio">
+        <p class="peso-atomico-rojo">98</p>
+        <p class="numero-atomico-rojo">43</p>
+        <p class="simbolo">Tc</p>
+        <p class="nombre">Tecnecio</p>
+    </div>
+    <div class="col-7_1" data-bs-toggle="modal" data-bs-target="#exampleRenio">
+        <p class="peso-atomico-rojo">186.21</p>
+        <p class="numero-atomico-rojo">75</p>
+        <p class="simbolo">Re</p>
+        <p class="nombre">Renio</p>
+    </div>
+    <div class="col-7_1" data-bs-toggle="modal" data-bs-target="#exampleBohrio">
+        <p class="peso-atomico-rojo">270</p>
+        <p class="numero-atomico-rojo">107</p>
+        <p class="simbolo">Bh</p>
+        <p class="nombre">Bohrio</p>
+    </div>
+
+    <div class="col-8" data-bs-toggle="modal" data-bs-target="#exampleHierro">
+        <p class="roman">VIII</p>
+        <p class="peso-atomico-rojo">55.845</p>
+        <p class="numero-atomico-rojo">26</p>
+        <p class="simbolo">Fe</p>
+        <p class="nombre">Hierro</p>
+    </div>
+    <div class="col-8_1" data-bs-toggle="modal" data-bs-target="#exampleRutenio">
+        <p class="peso-atomico-rojo">101.07</p>
+        <p class="numero-atomico-rojo">44</p>
+        <p class="simbolo">Ru</p>
+        <p class="nombre">Rutenio</p>
+    </div>
+    <div class="col-8_1" data-bs-toggle="modal" data-bs-target="#exampleOsmio">
+        <p class="peso-atomico-rojo">190.23</p>
+        <p class="numero-atomico-rojo">76</p>
+        <p class="simbolo">Os</p>
+        <p class="nombre">Osmio</p>
+    </div>
+    <div class="col-8_1" data-bs-toggle="modal" data-bs-target="#exampleHassio">
+        <p class="peso-atomico-rojo">269</p>
+        <p class="numero-atomico-rojo">108</p>
+        <p class="simbolo">Hs</p>
+        <p class="nombre">Hassio</p>
+    </div>
+
+    <div class="col-9" data-bs-toggle="modal" data-bs-target="#exampleCobalto">
+        <p class="roman">VIII</p>
+        <p class="peso-atomico-rojo">58.933</p>
+        <p class="numero-atomico-rojo">27</p>
+        <p class="simbolo">Co</p>
+        <p class="nombre">Cobalto</p>
+    </div>
+    <div class="col-9_1" data-bs-toggle="modal" data-bs-target="#exampleRodio">
+        <p class="peso-atomico-rojo">102.91</p>
+        <p class="numero-atomico-rojo">45</p>
+        <p class="simbolo">Rh</p>
+        <p class="nombre">Rodio</p>
+    </div>
+    <div class="col-9_1" data-bs-toggle="modal" data-bs-target="#exampleIridio">
+        <p class="peso-atomico-rojo">192.22</p>
+        <p class="numero-atomico-rojo">77</p>
+        <p class="simbolo">Ir</p>
+        <p class="nombre">Iridio</p>
+    </div>
+    <div class="col-9_1" data-bs-toggle="modal" data-bs-target="#exampleMeitnerio">
+        <p class="peso-atomico-rojo">278</p>
+        <p class="numero-atomico-rojo">109</p>
+        <p class="simbolo">Mt</p>
+        <p class="nombre">Meitnerio</p>
+    </div>
+
+    <div class="col-10" data-bs-toggle="modal" data-bs-target="#exampleNiquel">
+        <p class="roman">VIII</p>
+        <p class="peso-atomico-rojo">58.693</p>
+        <p class="numero-atomico-rojo">28</p>
+        <p class="simbolo">Ni</p>
+        <p class="nombre">Níquel</p>
+    </div>
+    <div class="col-10_1" data-bs-toggle="modal" data-bs-target="#examplePaladio">
+        <p class="peso-atomico-rojo">106.42</p>
+        <p class="numero-atomico-rojo">46</p>
+        <p class="simbolo">Pd</p>
+        <p class="nombre">Paladio</p>
+    </div>
+    <div class="col-10_1" data-bs-toggle="modal" data-bs-target="#examplePlatino">
+        <p class="peso-atomico-rojo">195.08</p>
+        <p class="numero-atomico-rojo">78</p>
+        <p class="simbolo">Pt</p>
+        <p class="nombre">Platino</p>
+    </div>
+    <div class="col-10_1" data-bs-toggle="modal" data-bs-target="#exampleDarmstadtio">
+        <p class="peso-atomico-rojo">281</p>
+        <p class="numero-atomico-rojo">110</p>
+        <p class="simbolo">Ds</p>
+        <p class="nombre">Darmstadtio</p>
+    </div>
+    <div class="col-11" data-bs-toggle="modal" data-bs-target="#exampleCobre">
+        <p class="roman">IB</p>
+        <p class="peso-atomico-rojo">63.546</p>
+        <p class="numero-atomico-rojo">29</p>
+        <p class="simbolo">Cu</p>
+        <p class="nombre">Cobre</p>
+    </div>
+    <div class="col-11_1" data-bs-toggle="modal" data-bs-target="#examplePlata">
+        <p class="peso-atomico-rojo">107.87</p>
+        <p class="numero-atomico-rojo">47</p>
+        <p class="simbolo">Ag</p>
+        <p class="nombre">Plata</p>
+    </div>
+    <div class="col-11_1" data-bs-toggle="modal" data-bs-target="#exampleOro">
+        <p class="peso-atomico-rojo">196.97</p>
+        <p class="numero-atomico-rojo">79</p>
+        <p class="simbolo">Au</p>
+        <p class="nombre">Oro</p>
+    </div>
+    <div class="col-11_1" data-bs-toggle="modal" data-bs-target="#exampleRoentgenio">
+        <p class="peso-atomico-rojo">282</p>
+        <p class="numero-atomico-rojo">111</p>
+        <p class="simbolo">Rg</p>
+        <p class="nombre">Roentgenio</p>
+    </div>
+
+    <div class="col-12" data-bs-toggle="modal" data-bs-target="#exampleZinc">
+        <p class="roman">IIB</p>
+        <p class="peso-atomico-rojo">65.38</p>
+        <p class="numero-atomico-rojo">30</p>
+        <p class="simbolo">Zn</p>
+        <p class="nombre">Zinc</p>
+    </div>
+    <div class="col-12_1" data-bs-toggle="modal" data-bs-target="#exampleCadmio">
+        <p class="peso-atomico-rojo">112.41</p>
+        <p class="numero-atomico-rojo">48</p>
+        <p class="simbolo">Cd</p>
+        <p class="nombre">Cadmio</p>
+    </div>
+    <div class="col-12_1" data-bs-toggle="modal" data-bs-target="#exampleMercurio">
+        <p class="peso-atomico-rojo">200.59</p>
+        <p class="numero-atomico-rojo">80</p>
+        <p class="simbolo">Hg</p>
+        <p class="nombre">Mercurio</p>
+    </div>
+    <div class="col-12_1" data-bs-toggle="modal" data-bs-target="#exampleCopernicio">
+        <p class="peso-atomico-rojo">>285</p>
+        <p class="numero-atomico-rojo">112</p>
+        <p class="simbolo">Cn</p>
+        <p class="nombre">Copernicio</p>
+    </div>
+
+    <div class="col-13" data-bs-toggle="modal" data-bs-target="#exampleBoro">
+        <p class="roman">IIIA</p>
+        <p class="peso-atomico">10.81</p>
+        <p class="numero-atomico">5</p>
+        <p class="simbolo">B</p>
+        <p class="nombre">Boro</p>
+    </div>
+    <div class="col-13_1" data-bs-toggle="modal" data-bs-target="#exampleAluminio">
+        <p class="peso-atomico-negro">26.982</p>
+        <p class="numero-atomico-negro">13</p>
+        <p class="simbolo">Al</p>
+        <p class="nombre">Aluminio</p>
+    </div>
+    <div class="col-13_1" data-bs-toggle="modal" data-bs-target="#exampleGalio">
+        <p class="peso-atomico-negro">69.723</p>
+        <p class="numero-atomico-negro">31</p>
+        <p class="simbolo">Ga</p>
+        <p class="nombre">Galio</p>
+    </div>
+    <div class="col-13_1" data-bs-toggle="modal" data-bs-target="#exampleIndio">
+        <p class="peso-atomico-negro">114.82</p>
+        <p class="numero-atomico-negro">49</p>
+        <p class="simbolo">In</p>
+        <p class="nombre">Indio</p>
+    </div>
+    <div class="col-13_1" data-bs-toggle="modal" data-bs-target="#exampleTalio">
+        <p class="peso-atomico-negro">204.38</p>
+        <p class="numero-atomico-negro">81</p>
+        <p class="simbolo">Tl</p>
+        <p class="nombre">Talio</p>
+    </div>
+    <div class="col-13_1" data-bs-toggle="modal" data-bs-target="#exampleNihonio">
+        <p class="peso-atomico-negro">286</p>
+        <p class="numero-atomico-negro">113</p>
+        <p class="simbolo">Uut</p>
+        <p class="nombre">Nihonio</p>
+    </div>
+
+    <div class="col-14" data-bs-toggle="modal" data-bs-target="#exampleCarbono">
+        <p class="roman">IVA</p>
+        <p class="peso-atomico">12.011</p>
+        <p class="numero-atomico">6</p>
+        <p class="simbolo">C</p>
+        <p class="nombre">Carbono</p>
+    </div>
+    <div class="col-14_1" data-bs-toggle="modal" data-bs-target="#exampleSilicio">
+        <p class="peso-atomico">28.085</p>
+        <p class="numero-atomico">14</p>
+        <p class="simbolo">Si</p>
+        <p class="nombre">Silicio</p>
+    </div>
+    <div class="col-14_1" data-bs-toggle="modal" data-bs-target="#exampleGermanio">
+        <p class="peso-atomico">72.63</p>
+        <p class="numero-atomico">32</p>
+        <p class="simbolo">Ge</p>
+        <p class="nombre">Germanio</p>
+    </div>
+    <div class="col-14_1" style="background-color: rgb(9, 194, 3);"  data-bs-toggle="modal" data-bs-target="#exampleEstaño">
+        <p class="peso-atomico-negro">118.71</p>
+        <p class="numero-atomico-negro">50</p>
+        <p class="simbolo">Sn</p>
+        <p class="nombre">Estaño</p>
+    </div>
+    <div class="col-14_1" style="background-color: rgb(9, 194, 3);" data-bs-toggle="modal" data-bs-target="#examplePlomo">
+        <p class="peso-atomico-negro">207.2</p>
+        <p class="numero-atomico-negro">82</p>
+        <p class="simbolo">Pb</p>
+        <p class="nombre">Plomo</p>
+    </div>
+    <div class="col-14_1" style="background-color: rgb(9, 194, 3);" data-bs-toggle="modal" data-bs-target="#exampleFlerovio">
+        <p class="peso-atomico-negro">289</p>
+        <p class="numero-atomico-negro">114</p>
+        <p class="simbolo">Fl</p>
+        <p class="nombre">Flerovio</p>
+    </div>
+
+    <div class="col-15" data-bs-toggle="modal" data-bs-target="#exampleNitrogeno">
+        <p class="roman">VA</p>
+        <p class="peso-atomico">14.007</p>
+        <p class="numero-atomico">7</p>
+        <p class="simbolo">N</p>
+        <p class="nombre">Nitrógeno</p>
+    </div>
+    <div class="col-15_1" data-bs-toggle="modal" data-bs-target="#exampleFosforo">
+        <p class="peso-atomico">30.974</p>
+        <p class="numero-atomico">15</p>
+        <p class="simbolo">P</p>
+        <p class="nombre">Fósforo</p>
+    </div>
+    <div class="col-15_1" style="background-color: rgb(255, 129, 3);" data-bs-toggle="modal" data-bs-target="#exampleArsenico">
+        <p class="peso-atomico">74.922</p>
+        <p class="numero-atomico">33</p>
+        <p class="simbolo">As</p>
+        <p class="nombre">Arsénico</p>
+    </div>
+    <div class="col-15_1"  style="background-color: rgb(255, 129, 3);" data-bs-toggle="modal" data-bs-target="#exampleAntimonio">
+        <p class="peso-atomico">121.76</p>
+        <p class="numero-atomico">51</p>
+        <p class="simbolo">Sb</p>
+        <p class="nombre">Antimonio</p>
+    </div>
+    <div class="col-15_1" style="background-color: rgb(9, 194, 3);" data-bs-toggle="modal" data-bs-target="#exampleBismuto">
+        <p class="peso-atomico-negro">208.98</p>
+        <p class="numero-atomico-negro">83</p>
+        <p class="simbolo">Bi</p>
+        <p class="nombre">Bismuto</p>
+    </div>
+    <div class="col-15_1" style="background-color: rgb(9, 194, 3);" data-bs-toggle="modal" data-bs-target="#exampleMoscovio">
+        <p class="peso-atomico-negro">290</p>
+        <p class="numero-atomico-negro">115</p>
+        <p class="simbolo">Uup</p>
+        <p class="nombre">Moscovio</p>
+    </div>
+
+    <div class="col-16" data-bs-toggle="modal" data-bs-target="#exampleOxigeno">
+        <p class="roman">VIA</p>
+        <p class="peso-atomico">15.999</p>
+        <p class="numero-atomico">8</p>
+        <p class="simbolo">O</p>
+        <p class="nombre">Oxígeno</p>
+    </div>
+    <div class="col-16_1"  style="background-color:rgb(0, 187, 255);" data-bs-toggle="modal" data-bs-target="#exampleAzufre">
+        <p class="peso-atomico">32.06</p>
+        <p class="numero-atomico">16</p>
+        <p class="simbolo">S</p>
+        <p class="nombre">Azufre</p>
+    </div>
+    <div class="col-16_1" style="background-color:rgb(0, 187, 255);" data-bs-toggle="modal" data-bs-target="#exampleSelenio">
+        <p class="peso-atomico">78.971</p>
+        <p class="numero-atomico">34</p>
+        <p class="simbolo">Se</p>
+        <p class="nombre">Selenio</p>
+    </div>
+    <div class="col-16_1" data-bs-toggle="modal" data-bs-target="#exampleTelurio">
+        <p class="peso-atomico">127.60</p>
+        <p class="numero-atomico">52</p>
+        <p class="simbolo">Te</p>
+        <p class="nombre">Telurio</p>
+    </div>
+    <div class="col-16_1" data-bs-toggle="modal" data-bs-target="#examplePolonio">
+        <p class="peso-atomico">209</p>
+        <p class="numero-atomico ">84</p>
+        <p class="simbolo">Po</p>
+        <p class="nombre">Polonio</p>
+    </div>
+    <div class="col-16_1" style="background-color: rgb(9, 194, 3);"  data-bs-toggle="modal" data-bs-target="#exampleLivermorio">
+        <p class="peso-atomico-negro">293</p>
+        <p class="numero-atomico-negro">116</p>
+        <p class="simbolo">Lv</p>
+        <p class="nombre">Livermorio</p>
+    </div>
+    <div class="col-17" data-bs-toggle="modal" data-bs-target="#exampleFluor">
+        <p class="roman">VIIA</p>
+        <p class="peso-atomico-negro">18.998</p>
+        <p class="numero-atomico">9</p>
+        <p class="simbolo">F</p>
+        <p class="nombre">Flúor</p>
+    </div>
+    <div class="col-17_1" data-bs-toggle="modal" data-bs-target="#exampleCloro">
+        <p class="peso-atomico-negro">35.45</p>
+        <p class="numero-atomico">17</p>
+        <p class="simbolo">Cl</p>
+        <p class="nombre">Cloro</p>
+    </div>
+    <div class="col-17_1" data-bs-toggle="modal" data-bs-target="#exampleBromo">
+        <p class="peso-atomico-negro">79.904</p>
+        <p class="numero-atomico">35</p>
+        <p class="simbolo">Br</p>
+        <p class="nombre">Bromo</p>
+    </div>
+    <div class="col-17_1" data-bs-toggle="modal" data-bs-target="#exampleYodo">
+        <p class="peso-atomico-negro">126.90</p>
+        <p class="numero-atomico">53</p>
+        <p class="simbolo">I</p>
+        <p class="nombre">Yodo</p>
+    </div>
+    <div class="col-17_1" data-bs-toggle="modal" data-bs-target="#exampleAstato">
+        <p class="peso-atomico-negro">210</p>
+        <p class="numero-atomico">85</p>
+        <p class="simbolo">At</p>
+        <p class="nombre">Astato</p>
+    </div>
+    <div class="col-17_1" data-bs-toggle="modal" data-bs-target="#exampleTenesino">
+        <p class="peso-atomico-negro">294</p>
+        <p class="numero-atomico">117</p>
+        <p class="simbolo">Uus</p>
+        <p class="nombre">Tenesino</p>
+    </div>
+
+    <div class="col-18" data-bs-toggle="modal" data-bs-target="#exampleHelio">
+        <p class="roman">0</p>
+        <p class="peso-atomico-negro">4.0026</p>
+        <p class="numero-atomico">2</p>
+        <p class="simbolo">He</p>
+        <p class="nombre">Helio</p>
+    </div>
+    <div class="col-18_1" data-bs-toggle="modal" data-bs-target="#exampleNeon">
+        <p class="peso-atomico-negro">20.180</p>
+        <p class="numero-atomico">10</p>
+        <p class="simbolo">Ne</p>
+        <p class="nombre">Neón</p>
+    </div>
+    <div class="col-18_1" data-bs-toggle="modal" data-bs-target="#exampleArgon">
+        <p class="peso-atomico-negro">39.948</p>
+        <p class="numero-atomico">18</p>
+        <p class="simbolo">Ar</p>
+        <p class="nombre">Argón</p>
+    </div>
+    <div class="col-18_1" data-bs-toggle="modal" data-bs-target="#exampleKripton">
+        <p class="peso-atomico-negro">83.798</p>
+        <p class="numero-atomico">36</p>
+        <p class="simbolo">Kr</p>
+        <p class="nombre">Kriptón</p>
+    </div>
+    <div class="col-18_1" data-bs-toggle="modal" data-bs-target="#exampleXenon">
+        <p class="peso-atomico-negro">131.29</p>
+        <p class="numero-atomico">54</p>
+        <p class="simbolo">Xe</p>
+        <p class="nombre">Xenón</p>
+    </div>
+    <div class="col-18_1" data-bs-toggle="modal" data-bs-target="#exampleRadon">
+        <p class="peso-atomico-negro">222</p>
+        <p class="numero-atomico">86</p>
+        <p class="simbolo">Rn</p>
+        <p class="nombre">Radón</p>
+    </div>
+    <div class="col-18_1" data-bs-toggle="modal" data-bs-target="#exampleOganeson">
+        <p class="peso-atomico-negro">294</p>
+        <p class="numero-atomico">118</p>
+        <p class="simbolo">Uuo</p>
+        <p class="nombre">Oganesón</p>
+    </div>
+
+    <div class="col-19" data-bs-toggle="modal" data-bs-target="#exampleCerio">
+        <p class="peso-atomico-negro">140.11</p>
+        <p class="numero-atomico-negro">58</p>
+        <p class="simbolo">Ce</p>
+        <p class="nombre">Cerio</p>
+    </div>
+    <div class="col-19_1" data-bs-toggle="modal" data-bs-target="#exampleTorio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">232.038</p>
+        <p class="numero-atomico-negro">90</p>
+        <p class="simbolo">Th</p>
+        <p class="nombre">Torio</p>
+    </div>
+
+    <div class="col-20" data-bs-toggle="modal" data-bs-target="#examplePraseodimio">
+        <p class="peso-atomico-negro">140.907</p>
+        <p class="numero-atomico-negro">59</p>
+        <p class="simbolo">Pr</p>
+        <p class="nombre">Praseodimio</p>
+    </div>
+    <div class="col-20_1" data-bs-toggle="modal" data-bs-target="#exampleProtactinio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">231.035</p>
+        <p class="numero-atomico-negro">91</p>
+        <p class="simbolo">Pa</p>
+        <p class="nombre">Protactinio</p>
+    </div>
+
+    <div class="col-21" data-bs-toggle="modal" data-bs-target="#exampleNeodimio">
+        <p class="peso-atomico-negro">144.44</p>
+        <p class="numero-atomico-negro">60</p>
+        <p class="simbolo">Nd</p>
+        <p class="nombre">Neodimio</p>
+    </div>
+    <div class="col-21_1" data-bs-toggle="modal" data-bs-target="#exampleUranio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">92</p>
+        <p class="simbolo">U</p>
+        <p class="nombre">Uranio</p>
+    </div>
+
+    <div class="col-22" data-bs-toggle="modal" data-bs-target="#examplePrometio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">61</p>
+        <p class="simbolo">Pm</p>
+        <p class="nombre">Prometio</p>
+    </div>
+    <div class="col-22_1" data-bs-toggle="modal" data-bs-target="#exampleNeptunio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">93</p>
+        <p class="simbolo">Np</p>
+        <p class="nombre">Neptunio</p>
+    </div>
+
+    <div class="col-23" data-bs-toggle="modal" data-bs-target="#exampleSamario">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">62</p>
+        <p class="simbolo">Sm</p>
+        <p class="nombre">Samario</p>
+    </div>
+    <div class="col-23_1" data-bs-toggle="modal" data-bs-target="#examplePlutonio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">94</p>
+        <p class="simbolo">Pu</p>
+        <p class="nombre">Plutonio</p>
+    </div>
+
+    <div class="col-24" data-bs-toggle="modal" data-bs-target="#exampleEuropio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">63</p>
+        <p class="simbolo">Eu</p>
+        <p class="nombre">Europio</p>
+    </div>
+    <div class="col-24_1" data-bs-toggle="modal" data-bs-target="#exampleAmericio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">95</p>
+        <p class="simbolo">Am</p>
+        <p class="nombre">Americo</p>
+    </div>
+
+    <div class="col-25" data-bs-toggle="modal" data-bs-target="#exampleGadolinio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">64</p>
+        <p class="simbolo">Gd</p>
+        <p class="nombre">Gadolinio</p>
+    </div>
+    <div class="col-25_1" data-bs-toggle="modal" data-bs-target="#exampleCurio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">96</p>
+        <p class="simbolo">Cm</p>
+        <p class="nombre">Curio</p>
+    </div>
+
+    <div class="col-26" data-bs-toggle="modal" data-bs-target="#exampleTerbio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">65</p>
+        <p class="simbolo">Tb</p>
+        <p class="nombre">Terbio</p>
+    </div>
+    <div class="col-26_1" data-bs-toggle="modal" data-bs-target="#exampleBerkelio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">97</p>
+        <p class="simbolo">Bk</p>
+        <p class="nombre">Berkelio</p>
+    </div>
+
+    <div class="col-27" data-bs-toggle="modal" data-bs-target="#exampleDisprosio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">66</p>
+        <p class="simbolo">Dy</p>
+        <p class="nombre">Disprosio</p>
+    </div>
+    <div class="col-27_1" data-bs-toggle="modal" data-bs-target="#exampleCalifornio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">98</p>
+        <p class="simbolo">Cf</p>
+        <p class="nombre">Californio</p>
+    </div>
+
+    <div class="col-28" data-bs-toggle="modal" data-bs-target="#exampleHolmio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">67</p>
+        <p class="simbolo">Ho</p>
+        <p class="nombre">Holmio</p>
+    </div>
+    <div class="col-28_1" data-bs-toggle="modal" data-bs-target="#exampleEinstenio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">99</p>
+        <p class="simbolo">Es</p>
+        <p class="nombre">Einstenio</p>
+    </div>
+
+    <div class="col-29" data-bs-toggle="modal" data-bs-target="#exampleErbio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">68</p>
+        <p class="simbolo">Er</p>
+        <p class="nombre">Erbio</p>
+    </div>
+    <div class="col-29_1" data-bs-toggle="modal" data-bs-target="#exampleFermio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">100</p>
+        <p class="simbolo">Fm</p>
+        <p class="nombre">Fermio</p>
+    </div>
+
+    <div class="col-30" data-bs-toggle="modal" data-bs-target="#exampleTulio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">69</p>
+        <p class="simbolo">Tm</p>
+        <p class="nombre">Tulio</p>
+    </div>
+    <div class="col-30_1" data-bs-toggle="modal" data-bs-target="#exampleMendelevio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">101</p>
+        <p class="simbolo">Md</p>
+        <p class="nombre">Mendelerio</p>
+    </div>
+
+    <div class="col-31" data-bs-toggle="modal" data-bs-target="#exampleYterbio">
+        <p class="peso-atomico-negro">1.00794</p>
+        <p class="numero-atomico-negro">70</p>
+        <p class="simbolo">Yb</p>
+        <p class="nombre">Hidrogeno</p>
+    </div>
+    <div class="col-31_1" data-bs-toggle="modal" data-bs-target="#exampleNoberio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">(259.10)</p>
+        <p class="numero-atomico-negro">102</p>
+        <p class="simbolo">No</p>
+        <p class="nombre">Noberio</p>
+    </div>
+
+    <div class="col-32" data-bs-toggle="modal" data-bs-target="#exampleLutecio">
+        <p class="peso-atomico-negro">(262.11)</p>
+        <p class="numero-atomico-negro">71</p>
+        <p class="simbolo">Lu</p>
+        <p class="nombre">Lutecio</p>
+    </div>
+    <div class="col-32_1" data-bs-toggle="modal" data-bs-target="#exampleLaurencio" style="background-color: aquamarine;">
+        <p class="peso-atomico-negro">174.96</p>
+        <p class="numero-atomico-negro">103</p>
+        <p class="simbolo">Lr</p>
+        <p class="nombre">Laurencio</p>
+    </div>
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleHidrogeno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Hidrogeno</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi provident, incidunt mollitia veniam laborum sequi laboriosam, quisquam beatae perspiciatis voluptatum doloribus labore voluptas ut modi odio a blanditiis cumque velit!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleLitio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Litio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    El litio (del griego: λιθίον ‘piedrecita’)1​ es un elemento químico de símbolo Li, número atómico 3, masa atómica 6.938, en la tabla periódica, se encuentra en el grupo IA, entre los elementos alcalinos. En su forma pura, es un metal blando, de color blanco plata, que se oxida rápidamente en aire o agua. Su densidad es la mitad de la del agua, siendo el metal y elemento sólido más ligero, blando y blanco.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleSodio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sodio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis minima iste dolor provident distinctio error, maxime pariatur nostrum sequi qui facilis debitis ex culpa aliquam doloremque. Magni beatae corporis voluptates!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePotasio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Potasio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sit omnis eius consequuntur doloribus officia aperiam tenetur, cum, eos repellendus neque pariatur. Facere eum numquam eius quidem suscipit sapiente qui.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRubidio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Rubidio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatum blanditiis nemo. Quaerat molestias dicta repudiandae sed porro mollitia! Sed exercitationem earum impedit? Facere similique ipsum esse perferendis, vel maxime?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCesio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Cesio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora quo ipsum ex! Ipsa voluptate repellendus exercitationem, quos nobis fugiat modi dolores iure, illum perferendis, perspiciatis tempora laborum iusto consequuntur?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleFrancio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Francio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptatum? Laboriosam aperiam ipsam sapiente neque qui sunt cumque inventore facilis officia quae, autem provident aliquam ipsa adipisci incidunt maxime facere!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleBerilio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Berilio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate error eos impedit optio. Officiis ipsum in porro suscipit magni odit tempore aliquam quo asperiores, consectetur at reprehenderit ab laudantium necessitatibus?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleMagnesio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Magnesio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, ipsum quaerat esse magnam, eum rerum error quos repudiandae repellat autem explicabo et fuga nesciunt. Tempore, cupiditate? Maiores blanditiis at dolore.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCalcio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleEstroncio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleBario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRadio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleEscandio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleItrio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleLantano" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleActinio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTitanio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleZirconio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleHafnio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRuterfordio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleVanadio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleNiobio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTantalio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleDaubnio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCromo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleMolibdeno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTungsteno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleSeaborgio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleManganeso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <div class="modal fade" id="exampleTecnecio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRenio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleBohrio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleHierro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRutenio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleOsmio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleHassio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCobalto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRodio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleIridio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleMeitnerio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleNiquel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePaladio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePlatino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleDarmstadtio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePlata" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleOro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRoentgenio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleZinc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCadmio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleMercurio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCopernicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleBoro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleAluminio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleGalio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleIndio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTalio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleNihonio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCarbono" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleSilicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleGermanio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleEstaño" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePlomo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleFlerovio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleNitrogeno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleFosforo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleArsenico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleAntimonio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleBismuto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleMoscovio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleOxigeno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleAzufre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleSelenio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTelurio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePolonio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleLivermorio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleFluor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCloro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleBromo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleYodo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>    <div class="modal fade" id="exampleAstato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTenesino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleHelio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleNeon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleArgon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleKripton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleXenon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleRadon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleOganeson" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCerio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTorio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePraseodimio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleProtactinio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleNeodimio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleUranio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>    <div class="modal fade" id="examplePrometio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>    <div class="modal fade" id="exampleNeptunio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleSamario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="examplePlutonio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleEuropio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleAmericio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleGadolinio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCurio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTerbio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleBerkelio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleDisprosio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleCalifornio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>    <div class="modal fade" id="exampleHolmio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleEinstenio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleErbio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleFermio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleTulio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleMendelevio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleYterbio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleNoberio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleLutecio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleLaurencio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

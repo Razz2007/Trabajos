@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota1 = 2.0;
+        let nota2 = 2.5;
+        let nota3 = 4.0;
+        let porce1;
+        let porce2;
+        let porce3;
+        let suma;
+        porce1 = nota1 * (20/100);
+        porce2 = nota2 * (35/100);
+        porce3 = nota3 * (45/100);
+        console.log(porce1);
+        console.log(porce2);
+        console.log(porce3);
+        suma = porce1+porce2+porce3;
+        console.log(suma);
+        if (suma>4.5) {
+            console.log("la nota es superior");
+        } else {
+            if (suma>3.5){
+                console.log("la nota es buena");
+            } else {
+                if (suma>=3){
+                    console.log("la nota es media");
+                } else {
+                    console.log("la nota es mala");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

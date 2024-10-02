@@ -1,0 +1,70 @@
+
+.book {
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: #f2f2f2; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.page {
+    width: 45%; 
+    background-color: white;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.col-4 {
+    margin-bottom: 20px; 
+}
+
+.mostrarTablas h2 {
+    margin-top: 0; 
+}
+
+
+.form, .respuesta{
+    border: 2px solid black;
+    margin: -5px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+form input{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+
+}
+
+#porcentajeInput{
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 15px;
+    background: transparent;
+    animation: colorBTN 5s infinite;
+    
+}
+.form{
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+    width: auto;
+    margin-left: 0px;
+    
+    
+}

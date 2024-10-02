@@ -1,0 +1,60 @@
+.form, .respuesta{
+    border: 2px solid black;
+    margin: -5px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+}
+
+form input{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+
+}
+
+#porcentajeInput{
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 15px;
+    background: transparent;
+    animation: colorBTN 5s infinite;
+    
+}
+.form{
+    padding: 11px;
+}
+
+h2{
+    text-align: center;
+    width: auto;
+    margin-left: 55px;
+    
+    
+}
+
+.resultado{
+    border: 2px black solid;
+    display: flex;
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    margin-left: 303px;
+    text-align: center;
+}
+
+.resultado p {
+  margin-left: -100px;
+}
+
+.resultadoss{
+    font-size: 19px;
+    margin-top: 60px;
+    margin-left: -120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

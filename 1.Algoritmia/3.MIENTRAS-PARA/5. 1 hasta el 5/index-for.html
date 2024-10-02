@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numero1;
+        let numero2;
+        let limite;
+        let pares;
+        let impares;
+        let resultado;
+        limite=5;
+        pares=0;
+        impares=0;
+        for (let numero1 = 1; numero1 <= limite; numero1++) {
+            
+            for (let numero2 = 1; numero2 <= limite; numero2++) {
+                resultado = numero1*numero2;
+                if (resultado%2==0) {
+                    console.log(numero1+" x " +numero2+" = "+resultado+" buzz");
+                    pares = pares + 1;
+                } else {
+                    console.log(numero1+" x " +numero2+" = "+resultado+ " bass" );
+                    impares = impares + 1;
+                }
+            }
+        }
+        console.log("numero de pares = "+pares);
+        console.log("numero de impares = "+impares);
+
+    </script>
+</body>
+</html>
